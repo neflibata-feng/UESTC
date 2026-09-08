@@ -1,0 +1,22 @@
+清水河校园 3D 漫游源码
+
+本项目为 HTML + CSS + JavaScript + Three.js 静态网站，无需 npm 安装或后端。
+
+运行方式（需已安装 Python 3）：
+1. 解压源码包。
+2. 在 qingshuihe-campus 文件夹中打开终端。
+3. 执行：python -m http.server 8000 --directory dist
+4. 浏览器打开：http://localhost:8000
+Windows 如找不到 python，可改用 py -m http.server 8000 --directory dist。
+不要直接双击 index.html，ES 模块需要 HTTP 服务。
+
+源码入口：
+dist/models.js：校园布局、建筑和景观的程序化三维建模。
+dist/campus.js：场景渲染、相机、漫游、碰撞检测和交互。
+dist/index.html：页面结构。
+dist/style.css：界面样式及移动端适配。
+dist/vendor/：Three.js 与辅助模块及 MIT 许可证。
+README.md：资料来源、实现范围及限制。
+
+建模通过 JavaScript 创建几何体，并非 Blender 工程或摄影测量模型。
+可将 dist 内容部署到静态网站托管服务。
