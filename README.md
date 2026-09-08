@@ -1,7 +1,7 @@
 > [!NOTE]
 > 本项目为测试GPT-6 Astra自主规划、深度搜索、3D建模能力创建，使用GPT Work，采用一轮提示词交互，提示词为"请使用联网搜索自主规划创建数字版清水河校区"，思考深度为最高，采用1.5倍率加速，耗时16min46s。
 
-A self-contained Three.js browser reconstruction of the UESTC Qingshuihe campus.
+# A self-contained Three.js browser reconstruction of the UESTC Qingshuihe campus.
 
 ## Show
 
