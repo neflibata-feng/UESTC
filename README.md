@@ -4,8 +4,12 @@
 A self-contained Three.js browser reconstruction of the UESTC Qingshuihe campus.
 
 ## Show
-[show1](/assets/show1.png)
-[show2](/assets/show2.png)
+
+<p align="center">
+  <img src="assets/show1.png" alt="showcase 1" width="100%" />
+  <img src="assets/show2.png" alt="showcase 2" width="100%" />
+</p>
+
 
 ## Experience
 
